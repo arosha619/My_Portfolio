@@ -497,7 +497,7 @@ h2 {
 /* Testimonial Ends */
 .contact--section {
   display: flex;
-  padding: 10px 85px;
+  padding: 100px 85px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -952,7 +952,7 @@ input[type="checkbox"] {
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  padding: 10px;
+  padding: 40px;
 }
 
 .about-section-img {
