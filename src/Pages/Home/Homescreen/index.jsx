@@ -5,12 +5,14 @@ import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Testimonial from "../Testimonials";
+import SkillsSection from "../Skills/SkillsSection";
 
 export default function Home() {
   return (
     <>
       <HeroSection />
       <AboutMe />
+      <SkillsSection/>
       {/* <MySkills />
       <MyPortfolio />
       <Testimonial /> */}
