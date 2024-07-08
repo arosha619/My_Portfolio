@@ -763,10 +763,8 @@ input[type="checkbox"] {
     width: 130%;
     height: 130%;
   }
-  .three-d-effect{
-margin-left: -85px !important;
-background-color: #e62872;
- 
+  .three-d-effect {
+    margin-left: -85px !important;
   }
 }
 @media only screen and (max-width: 450px) {
@@ -786,11 +784,11 @@ background-color: #e62872;
   }
   .logos {
     position: absolute;
-    top: -25% !important; 
+    top: -25% !important;
     left: 50% !important;
     transform: translateX(-50%);
-    width: 140% !important; 
-    height: 200px !important; 
+    width: 140% !important;
+    height: 200px !important;
     z-index: 100;
   }
 }
@@ -1003,9 +1001,8 @@ background-color: #e62872;
 .about-section-content .info {
   display: grid;
   width: 100%;
-  grid-template-columns: 2fr auto ; /* Two columns */
+  grid-template-columns: 2fr auto; /* Two columns */
   gap: 10px; /* Space between columns */
-
 }
 
 .about-section-content .info p {
