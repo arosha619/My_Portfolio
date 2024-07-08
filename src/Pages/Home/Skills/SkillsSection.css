@@ -2,8 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 20px;
-    background-color: #fff;
+    padding: 80px;
+    background-color:rgb(245,252,255);
     color: #000;
   }
   
@@ -13,7 +13,7 @@
     margin: 20px;
   }
   
-  .technical-skills {
+  .skills-list{
     max-height: 400px !important;
     overflow-y: auto !important; /* Enable vertical scrolling */
     padding-right: 10px;
@@ -24,7 +24,7 @@
   }
   
   /* Hide traditional scrollbar */
-  .technical-skills::-webkit-scrollbar {
+  .skills-list::-webkit-scrollbar {
     width: 0;
     height: 0;
     background: transparent;
@@ -69,7 +69,7 @@
   
   .skill-level {
     height: 100%;
-    background-color: #00c8ff;
+    background-color: rgb(57,70,146);
     border-radius: 5px;
     animation: loadSkill 1.5s ease-out;
   }
@@ -105,7 +105,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: conic-gradient(#00c8ff calc(var(--percentage) * 1%), #ddd calc(var(--percentage) * 1%));
+    background: conic-gradient(rgb(57,70,146) calc(var(--percentage) * 1%), #ddd calc(var(--percentage) * 1%));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,6 +141,7 @@
     .technical-skills,
     .professional-skills {
       flex: 1 1 100%;
+      width: 80%;
     }
   }
   

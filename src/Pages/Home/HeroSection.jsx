@@ -22,7 +22,7 @@ export default function HeroSection() {
             </span>
           </p>
         </div>
-        
+        <div className='containerz'>
         <a
           href="https://drive.google.com/file/d/123CUV0WJl2LCMDUDTw3Gy0-eD3i2PxLx/view?usp=sharing"
           className="btn btn-primary"
@@ -96,6 +96,7 @@ export default function HeroSection() {
               </a>
             </li>
           </ul>
+        </div>
         </div>
       </div>
 

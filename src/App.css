@@ -245,7 +245,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 133.333px 85.333px 63.333px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -751,6 +751,16 @@ input[type="checkbox"] {
   .divider {
     margin: 20px;
   }
+  .containerz{
+    display: grid;
+    place-items: center;
+  }
+  .btn-primary{
+    padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+
+  }
 }
 @media only screen and (max-width: 650px) {
   .hero--section {
@@ -958,6 +968,7 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: flex-start;
   padding: 40px;
+  padding-bottom: 65px;
 }
 
 .about-section-img {
@@ -969,11 +980,13 @@ input[type="checkbox"] {
 .about-section-img img {
   width: 100%;
   border-radius: 10px;
+  
 }
 
 .about-section-content {
   flex: 2 1 500px;
-  max-width: 600px;
+  max-width: 700px;
+  padding-top: 15px;
 }
 
 .about-section-content h1 {
@@ -993,9 +1006,11 @@ input[type="checkbox"] {
 }
 
 .about-section-content p {
-  font-size: 1rem;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 10px;
+
 }
 
 .about-section-content .info {
@@ -1026,6 +1041,10 @@ input[type="checkbox"] {
 
   .about-section-content h1 {
     font-size: 2rem;
+  }
+  .about-section-content p{
+    text-align: center;
+    justify-content: center;
   }
 
   .about-section-content .subtitle {
