@@ -763,6 +763,11 @@ input[type="checkbox"] {
     width: 130%;
     height: 130%;
   }
+  .three-d-effect{
+margin-left: -85px !important;
+background-color: #e62872;
+ 
+  }
 }
 @media only screen and (max-width: 450px) {
   .hero--section {
@@ -821,6 +826,7 @@ input[type="checkbox"] {
     display: flex;
   }
   .navbar--items {
+    display: none;
     position: absolute;
     display: flex;
     align-items: center;
@@ -830,6 +836,7 @@ input[type="checkbox"] {
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
+    z-index: 100;
   }
   .navbar--items ul {
     flex-direction: column;
@@ -842,7 +849,7 @@ input[type="checkbox"] {
     text-align: center;
   }
   .navbar--items ul li a {
-    padding: 0.5rem;
+    padding: 0.1rem;
   }
   .navbar--items {
     z-index: -1000;
