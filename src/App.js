@@ -5,10 +5,20 @@ import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreen";
 import Spinner from "./Pages/Spinner/Spinner";
 import { useState, useEffect } from "react";
+import ReactGA from 'react-ga';
 
+
+const initializeAnalytics = () => {
+  ReactGA.initialize('G-RLKF7V2SLC'); // Replace with your Tracking ID
+};
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    initializeAnalytics();
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
