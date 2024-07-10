@@ -3,8 +3,24 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreen";
+import Spinner from "./Pages/Spinner/Spinner";
+import { useState, useEffect } from "react";
+
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); 
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (isLoading) {
+    return <Spinner/>;
+  }
   return (
     <div className="App">
       <Router>
