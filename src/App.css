@@ -776,6 +776,9 @@ input[type="checkbox"] {
   .three-d-effect {
     margin-left: -85px !important;
   }
+  .about-section-img{
+    padding-right: 20px;
+  }
 }
 @media only screen and (max-width: 450px) {
   .hero--section {
@@ -800,6 +803,9 @@ input[type="checkbox"] {
     width: 140% !important;
     height: 200px !important;
     z-index: 100;
+  }
+  .about-section-img{
+    padding-right: 20px;
   }
 }
 
