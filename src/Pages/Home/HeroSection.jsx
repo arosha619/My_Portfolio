@@ -24,7 +24,7 @@ export default function HeroSection() {
         </div>
         <div className='containerz'>
         <a
-          href="https://drive.google.com/file/d/1g9IlsR8B3skey-tQyAIkSCCzTF_61O6X/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1g9IlsR8B3skey-tQyAIkSCCzTF_61O6X/view"
           className="btn btn-primary"
           target="_blank"
           rel="noopener noreferrer"
